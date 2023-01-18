@@ -50,7 +50,7 @@ jobs:
       - name: version 03
         run: gradle -version
       - name: Build with Gradle
-        run: gradle build
+        run: ./gradlew build
   isthmus-native-image-mac-linux:
     name: Build Isthmus Native Image
     needs: java
